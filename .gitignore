@@ -1,0 +1,10 @@
+# created by virtualenv automatically
+backend/bin/
+backend/lib/
+backend/pyvenv.cfg
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
