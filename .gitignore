@@ -11,3 +11,4 @@ db.sqlite3
 migrations/
 lib/
 bin/
+pyvenv.cfg
