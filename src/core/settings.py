@@ -74,9 +74,9 @@ SIMPLE_JWT = {
 }
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -108,7 +108,11 @@ WSGI_APPLICATION = 'core.wsgi.application'
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # React frontend URL
     ' http://localhost:3001',
+    'http://django-frontend-489.s3-website.us-east-2.amazonaws.com',
+    
 ]
+# CORS_ALLOW_ALL_ORIGINS = True
+
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
