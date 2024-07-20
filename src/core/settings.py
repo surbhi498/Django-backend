@@ -109,7 +109,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # React frontend URL
     ' http://localhost:3001',
     'http://django-frontend-489.s3-website.us-east-2.amazonaws.com',
-    'http://d3hztmj1a12k6g.cloudfront.net/',
+    'http://d3hztmj1a12k6g.cloudfront.net',
   
     
 ]
